@@ -4,19 +4,21 @@
     margin: 0;
     padding: 0;
     border: none;
-    color: #fafafa;
     font-family: inter, arial, sans-serif;
 }
 
 header {
+    color: #fafafa;
     background-color: #040d21;
 }
 
 body {
+    color: #fafafa;
     background-color: #040d21;
 }
 
 div {
+    color: #fafafa;
     background: transparent;
 }
 
@@ -64,6 +66,8 @@ div {
     margin: 0 auto;
     position: relative;
     bottom: 88%;
+    animation-name: logo-anim;
+    animation-duration: 1s;
 }
 
 #fa-square-check-banner {
@@ -112,4 +116,13 @@ div {
     position: fixed;
     right: -25%;
     bottom: -50%;
+}
+
+/* animations */
+@keyframes logo-anim {
+    from {color: rgba(0,0,0,0);
+        transform: rotate(-90deg);}
+
+    to {color: #fafafa;
+        scale: (1)}
 }
