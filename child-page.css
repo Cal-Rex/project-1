@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Saira+Condensed:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: inter, arial, sans-serif;
+}
+
+header {
+    color: #fafafa;
+    background-color: #040d21;
+}
+
+body {
+    color: #fafafa;
+    background-color: #040d21;
+}
+
+div {
+    color: #fafafa;
+    background: transparent;
+}
+
+/*logo*/
+
+#child-page-banner {
+width: 150px;
+height: 100px;
+}
+
+#github-banner-icon {
+    
+}
+
+#fa-face-grin-stars-banner {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 30%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 88%;
+}
+
+#fa-square-check-banner {
+
+}
+
+#git-title {
+    display: inline-block;
+    line-height: 1500px;
+}
+
+
+/*body BG*/
+
+.bg-burst1 {
+    z-index: 0;
+    width: 50vw;
+    height: 50vw;
+    background: rgb(5,41,99);
+    background: radial-gradient(circle, rgba(5,41,99,1) 0%, rgba(0,0,0,0) 75%);
+    position: fixed;
+    right: -32.5%;
+    top: -30%;
+}
+
+.bg-burst2 {
+    z-index: 0;
+    width: 50vw;
+    height: 50vw;
+    background: rgb(5,41,99);
+    background: radial-gradient(circle, rgba(5,41,99,1) 0%, rgba(0,0,0,0) 75%);
+    position: fixed;
+    left: -32.5%;
+    top: -50%;
+}
+
+#bg-burst3 {
+    z-index: 0;
+    width: 50vw;
+    height: 50vw;
+    background: rgb(73,31,74);
+    background: radial-gradient(circle, rgba(73,31,74,1) 0%, rgba(148,187,233,0) 75%);
+    position: fixed;
+    right: -25%;
+    bottom: -50%;
+}
