@@ -68,6 +68,7 @@ div {
     bottom: 88%;
     animation-name: logo-anim;
     animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 #fa-square-check-banner {
@@ -80,6 +81,14 @@ div {
     bottom: 80%;
     left: 25px;
     text-shadow: -3px 0 #040d21, 0 3px #040d21, 3px 0 #040d21, 0 -3px #040d21;
+    visibility: hidden;
+    animation-name: checkbox-anim;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+    
 }
 
 .fa-square-check {
@@ -120,9 +129,18 @@ div {
 
 /* animations */
 @keyframes logo-anim {
-    from {color: rgba(0,0,0,0);
+    from {color: rgba(0, 0, 0, 0);
         transform: rotate(-90deg);}
 
     to {color: #fafafa;
         scale: (1)}
+}
+
+@keyframes checkbox-anim {
+    from {visibility: hidden;
+        transform: rotate(-180deg);
+    left: 800px;}
+
+    to {visibility: visible;
+        left: 25px;}
 }
