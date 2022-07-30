@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Saira+Condensed:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #fafafa;
+    font-family: inter, arial, sans-serif;
+}
+
+header {
+    background-color: #040d21;
+}
+
+body {
+    background-color: #040d21;
+}
+
+div {
+    background: transparent;
+}
+
+/* Banner heading */
+#git-title {
+    display: block;
+    width: 47.5%;
+    position: relative;
+    top: 60px;
+    text-align: right;
+}
+
+#gud-title {
+    float: right;
+    width: 47.5%;
+    z-index: 5;
+    text-align: left;
+}
+
+.title {
+    font-family: "Saira Condensed", arial, sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+#github-banner {
+    font-size: 1000%;
+    text-align: center;
+    width: 10rem;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#github-banner-icon {
+    z-index: 1;
+    margin: 0 auto;
+}
+
+#fa-face-grin-stars-banner {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 30%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 88%;
+}
+
+#fa-square-check-banner {
+    z-index: 2;
+    font-size: 40%;
+    transform: rotate(25deg);
+    width: 37.5%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 80%;
+    left: 25px;
+}
+
+.fa-square-check {
+    color: #2ea54f;
+}
