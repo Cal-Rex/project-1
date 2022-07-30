@@ -138,7 +138,7 @@ div {
 
 @keyframes checkbox-anim {
     from {visibility: hidden;
-        transform: rotate(-180deg);
+        transform: rotate(360deg);
     left: 800px;}
 
     to {visibility: visible;
