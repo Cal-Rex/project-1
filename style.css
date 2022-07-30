@@ -139,11 +139,13 @@ div {
 }
 
 /* Gitpod page */
-.non-main-page {
-    width: 25%;
-    position: absolute;
-    top: 0;
-    right: 0;
+
+#child-page-banner {
+    font-size: 750%;
+    text-align: center;
+    width: 6.6rem;
+    height: 100px;
+    margin: 0 auto;
 }
 
 /* animations */
