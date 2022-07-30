@@ -75,8 +75,41 @@ div {
     position: relative;
     bottom: 80%;
     left: 25px;
+    text-shadow: -3px 0 #040d21, 0 3px #040d21, 3px 0 #040d21, 0 -3px #040d21;
 }
 
 .fa-square-check {
     color: #2ea54f;
+}
+
+/*body BG*/
+
+.bg-burst1 {
+    width: 50vw;
+    height: 50vw;
+    background: rgb(5,41,99);
+    background: radial-gradient(circle, rgba(5,41,99,1) 0%, rgba(0,0,0,0) 75%);
+    position: fixed;
+    right: -32.5%;
+    top: -30%;
+}
+
+.bg-burst2 {
+    width: 50vw;
+    height: 50vw;
+    background: rgb(5,41,99);
+    background: radial-gradient(circle, rgba(5,41,99,1) 0%, rgba(0,0,0,0) 75%);
+    position: fixed;
+    left: -32.5%;
+    top: -50%;
+}
+
+#bg-burst3 {
+    width: 50vw;
+    height: 50vw;
+    background: rgb(73,31,74);
+    background: radial-gradient(circle, rgba(73,31,74,1) 0%, rgba(148,187,233,0) 75%);
+    position: fixed;
+    right: -25%;
+    bottom: -50%;
 }
