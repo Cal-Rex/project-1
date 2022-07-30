@@ -106,7 +106,7 @@ div {
 /*body BG*/
 
 .bg-burst1 {
-    z-index: 0;
+    z-index: -1;
     width: 50vw;
     height: 50vw;
     background: rgb(5,41,99);
@@ -117,7 +117,7 @@ div {
 }
 
 .bg-burst2 {
-    z-index: 0;
+    z-index: -1;
     width: 50vw;
     height: 50vw;
     background: rgb(5,41,99);
@@ -128,7 +128,7 @@ div {
 }
 
 #bg-burst3 {
-    z-index: 0;
+    z-index: -1;
     width: 50vw;
     height: 50vw;
     background: rgb(73,31,74);

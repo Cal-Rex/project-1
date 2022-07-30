@@ -9,7 +9,6 @@
 
 header {
     color: #fafafa;
-    background-color: #040d21;
 }
 
 body {
@@ -24,37 +23,62 @@ div {
 
 /*logo*/
 
-#child-page-banner {
-width: 150px;
-height: 100px;
+.logo {
+    display: inline-block;
+}
+
+#github-banner {
+    font-size: 100%;
+    width: 4.5rem;
 }
 
 #github-banner-icon {
-    
+    font-size: 4rem;
+    position: absolute;
+    top: 2px;
+    left: 10px;
 }
 
 #fa-face-grin-stars-banner {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 30%;
-    margin: 0 auto;
+    font-size: 1.2rem;
     position: relative;
-    bottom: 88%;
+    top: 8.5px;
+    left: 31.5px;
 }
 
 #fa-square-check-banner {
-
+    font-size: 1.4rem;
+    position: relative;
+    top: 27.5px;
+    left: 37px;
+    transform: rotate(25deg);
+    text-shadow: -2px 0 #040d21, 0 2px #040d21, 2px 0 #040d21, 0 -2px #040d21;
+    visibility: hidden;
+    animation-name: checkbox-anim;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
-#git-title {
-    display: inline-block;
-    line-height: 1500px;
+.fa-square-check {
+    color: #2ea54f;
 }
 
+.title {
+    padding: 5px;
+    font-family: "Saira Condensed", arial, sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: uppercase;
+    z-index: 5;
+    line-height: 75px;
+}
 
 /*body BG*/
 
 .bg-burst1 {
-    z-index: 0;
+    z-index: -1;
     width: 50vw;
     height: 50vw;
     background: rgb(5,41,99);
@@ -65,7 +89,7 @@ height: 100px;
 }
 
 .bg-burst2 {
-    z-index: 0;
+    z-index: -1;
     width: 50vw;
     height: 50vw;
     background: rgb(5,41,99);
@@ -76,7 +100,7 @@ height: 100px;
 }
 
 #bg-burst3 {
-    z-index: 0;
+    z-index: -1;
     width: 50vw;
     height: 50vw;
     background: rgb(73,31,74);
@@ -84,4 +108,14 @@ height: 100px;
     position: fixed;
     right: -25%;
     bottom: -50%;
+}
+
+/* animations */
+@keyframes checkbox-anim {
+    from {visibility: hidden;
+        transform: rotate(360deg);
+    top: -200px;}
+
+    to {visibility: visible;
+        top: 25.5px;}
 }
