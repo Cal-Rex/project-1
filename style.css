@@ -164,3 +164,37 @@ div {
     to {visibility: visible;
         left: 25px;}
 }
+
+/* footer */
+
+footer{
+    height: fit-content;
+    background-color: #784c98;
+    color:#8193b2;
+}
+
+footer a{
+    text-decoration: none;
+    margin:10px;
+    color:white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+#footer-info{
+    text-align: center;
+    padding:10px;
+    color:white;
+}
+
+footer ul{
+    text-align: center;
+    height: 40px;
+}
+
+footer li{
+    display:inline;
+    margin:2%;
+}
