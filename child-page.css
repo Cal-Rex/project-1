@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Saira+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Inter&family=Saira+Condensed:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -9,6 +9,7 @@
 
 header {
     color: #fafafa;
+    display: inline-block
 }
 
 body {
@@ -21,10 +22,19 @@ div {
     background: transparent;
 }
 
+h1 { 
+    font-family: "Saira Condensed", arial, sans-serif;
+}
+
 /*logo*/
 
 .logo {
     display: inline-block;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #github-banner {
@@ -75,6 +85,70 @@ div {
     line-height: 75px;
 }
 
+.title a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Saira Condensed", arial, sans-serif;
+
+}
+
+/* Navigation */
+
+nav {
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+}
+
+#menu {
+    border: solid 1px #fafafa;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.1);
+    width: 180%;
+    padding: 5px;
+    line-height: 1.5rem;
+    font-size: 110%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: arvo, Lucida Sans Unicode, sans-serif;
+    font-weight: lighter;
+    color: inherit;
+}
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+/* gitpod video */
+
+#gitpod-video {
+    margin: 0 auto;
+    padding: 2.5% 25%;
+}
+
+.responsive {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.responsive iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+
 /*body BG*/
 
 .bg-burst1 {
@@ -110,6 +184,16 @@ div {
     bottom: -50%;
 }
 
+/* media queries */
+/*  < 950px */
+@media screen and (max-width: 400px) {
+
+    #menu {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+}
 /* animations */
 @keyframes checkbox-anim {
     from {visibility: hidden;
